@@ -2,9 +2,11 @@ Enzyme reaction in the presence of molecules A and B in three dimensions
 ====
 
 Description: The main code ProjectENZYME.m computes the time evolution of the number of enzymes ($E$) and molecules $A$ and $B$. 
-The [Michaelis-Menten equation](https://en.wikibooks.org/wiki/Structural_Biochemistry/Enzyme/Michaelis_and_Menten_Equation#:~:text=The%20Michaelis%2DMenten%20equation%20arises,and%20P%20is%20the%20product.) arises from the general equation for an enzymatic reaction: $ E + S \leftrightarrow ES \leftrightarrow E + P $, where $E$ is the enzyme, $S$ is the substrate, 
-$ES$ is the enzyme-substrate complex, and $P$ is the product. Thus, the enzyme combines with the substrate in order to form the $ES$ complex, 
-which in turn converts to product while preserving the enzyme. 
+The [Michaelis-Menten equation](https://en.wikibooks.org/wiki/Structural_Biochemistry/Enzyme/Michaelis_and_Menten_Equation#:~:text=The%20Michaelis%2DMenten%20equation%20arises,and%20P%20is%20the%20product.) arises from the general equation for an enzymatic reaction: 
+
+$ E + S \leftrightarrow ES \leftrightarrow E + P $,
+
+where $E$ is the enzyme, $S$ is the substrate, $ES$ is the enzyme-substrate complex, and $P$ is the product. Thus, the enzyme combines with the substrate in order to form the $ES$ complex, which in turn converts to product while preserving the enzyme. 
 
 In our language this means that the reactions computed are of the form:
 
