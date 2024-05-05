@@ -1,14 +1,14 @@
 Enzyme reaction in the presence of molecules A and B in three dimensions
 ====
 
-Description: The main code ProjectENZYME.m computes the time evolution of the number of enzymes (E) and molecules A and B. 
-The [Michaelis-Menten equation](https://en.wikibooks.org/wiki/Structural_Biochemistry/Enzyme/Michaelis_and_Menten_Equation#:~:text=The%20Michaelis%2DMenten%20equation%20arises,and%20P%20is%20the%20product.) arises from the general equation for an enzymatic reaction: E + S <--> ES <--> E + P, where E is the enzyme, S is the substrate, 
-ES is the enzyme-substrate complex, and P is the product. Thus, the enzyme combines with the substrate in order to form the ES complex, 
+Description: The main code ProjectENZYME.m computes the time evolution of the number of enzymes ($E$) and molecules $A$ and $B$. 
+The [Michaelis-Menten equation](https://en.wikibooks.org/wiki/Structural_Biochemistry/Enzyme/Michaelis_and_Menten_Equation#:~:text=The%20Michaelis%2DMenten%20equation%20arises,and%20P%20is%20the%20product.) arises from the general equation for an enzymatic reaction: $ E + S \leftrightarrow ES \leftrightarrow E + P $, where $E$ is the enzyme, $S$ is the substrate, 
+$ES$ is the enzyme-substrate complex, and $P$ is the product. Thus, the enzyme combines with the substrate in order to form the $ES$ complex, 
 which in turn converts to product while preserving the enzyme. 
 
 In our language this means that the reactions computed are of the form:
 
-$E + A \rightleftarrow EA \rightleftarrow E + B$
+$E + A \leftrightarrow EA \leftrightarrow E + B$
 
 Note that the reactions go in both directions and that the number of enzymes stays constant in time.
 
@@ -23,4 +23,4 @@ Note that the reactions go in both directions and that the number of enzymes sta
 - MATLAB (version 2017 or later)
 
   Running this ProjectENZYME.m computes (MATLAB) code will generate plots in /plots. You can also run the simpler ProjectABC.m file to understand
-  the time evolution of the numbers of molecules type A, B and C as they undergo the reaction A + B --> C.
+  the time evolution of the numbers of molecules type $A, B$ and $C$ as they undergo the reaction $A + B \rightarrow C$.
