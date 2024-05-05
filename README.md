@@ -8,7 +8,7 @@ which in turn converts to product while preserving the enzyme.
 
 In our language this means that the reactions computed are of the form:
 
-$E + A <--> EA <--> E + B$
+$E + A \rightleftarrow EA \rightleftarrow E + B$
 
 Note that the reactions go in both directions and that the number of enzymes stays constant in time.
 
